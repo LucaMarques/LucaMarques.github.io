@@ -9,7 +9,7 @@ flags.forEach(flag => {
   div.className = 'flag col-2 my-2 text-center';
 
   const img = document.createElement('img');
-  img.src = `./imgs/flags/${flag.id}.png`;
+  img.src = `flags-exercises//imgs/flags/${flag.id}.png`;
   img.alt = flag.name;
 
   const p = document.createElement('p');
